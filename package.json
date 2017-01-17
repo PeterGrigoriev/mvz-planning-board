@@ -1,0 +1,23 @@
+{
+  "name": "mvz-webrtc-server",
+  "version": "0.1.6",
+  "author": "PG Square Consulting",
+  "description": "webrtc server",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "angular-sanitize": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "easyrtc": "^1.1.0",
+    "express": "^4.10.7",
+    "jquery": "^3.1.1",
+    "socket.io": "^1.4.5"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
